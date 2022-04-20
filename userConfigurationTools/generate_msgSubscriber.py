@@ -5,7 +5,7 @@ import math
 
 N = int(sys.argv[1])
 
-f = open("msgSubscriber.py", "w")
+f = open("../swarmController/msgSubscriber.py", "w")
 
 f.write("#python uavMsgSubscriber.py [uav_number]\n")
 f.write("#!/usr/bin/env\n")
